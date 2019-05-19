@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+Processing file 'prediction.py'
+ outputting to 'predict_motion.py'
+--------------------------------------------------------------------------------
+
+'prediction.py' Line 8
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.logging.set_verbosity' to 'tf.compat.v1.logging.set_verbosity'
+Renamed function 'tf.logging.ERROR' to 'tf.compat.v1.logging.ERROR'
+
+    Old: tf.logging.set_verbosity(tf.logging.ERROR)
+         ~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~  
+    New: tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~  
+
+
